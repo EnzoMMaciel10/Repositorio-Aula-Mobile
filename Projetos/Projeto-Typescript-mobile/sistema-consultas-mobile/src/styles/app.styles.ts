@@ -41,4 +41,47 @@ export const styles = StyleSheet.create({
   cardSpacing: {
     marginBottom: 12,
   },
+  homeActions: {
+    marginBottom: 20,
+  },
+  agendarButton: {
+    backgroundColor: "#4CAF50",
+    padding: 16,
+    borderRadius: 10,
+    marginBottom: 10,
+  },
+  agendarButtonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  logoutButton: {
+    backgroundColor: "rgba(255,255,255,0.2)",
+    padding: 12,
+    borderRadius: 10,
+  },
+  logoutButtonText: {
+    color: "#fff",
+    fontSize: 14,
+    textAlign: "center",
+  },
+  emptyPatientBox: {
+    backgroundColor: "rgba(255,255,255,0.12)",
+    padding: 24,
+    borderRadius: 15,
+    alignItems: "center",
+  },
+  emptyPatientTitle: {
+    color: "#fff",
+    fontSize: 18,
+    marginBottom: 10,
+    textAlign: "center",
+    fontWeight: "bold",
+  },
+  emptyPatientSubtitle: {
+    color: "#ead8f5",
+    fontSize: 14,
+    textAlign: "center",
+  },
 });
